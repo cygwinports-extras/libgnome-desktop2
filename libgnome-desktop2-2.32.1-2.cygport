@@ -1,0 +1,11 @@
+ORIG_PN="gnome-desktop"
+inherit gnome2
+
+DESCRIPTION="GNOME desktop API"
+
+PKG_NAMES="libgnome-desktop2_17 libgnome-desktop2-devel"
+libgnome_desktop2_17_CONTENTS='--exclude=gtk-doc --exclude=pixmaps usr/bin/*-2-17.dll usr/share/'
+libgnome_desktop2_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
+PKG_IGNORE="usr/share/pixmaps/"
+
+CYGCONF_ARGS="--disable-gnome-about --disable-desktop-docs"

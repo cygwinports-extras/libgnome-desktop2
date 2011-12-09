@@ -1,0 +1,8 @@
+category: Gnome
+requires: libcairo2 libgcc1 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libstartup-notification1_0 libX11_6 libXrandr2
+external-source: libgnome-desktop2
+sdesc: "GNOME Desktop API library (runtime)"
+ldesc: "The package contains the libgnome-desktop library which
+contains APIs that really belong in libgnome[ui] but
+have not seen enough testing or development to be considered
+stable. Use at your own risk."
